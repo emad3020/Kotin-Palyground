@@ -42,6 +42,9 @@ fun main(args: Array<String>) {
     rebelsVehicles.remove("Boba Fett")
     println(rebelsVehicles)
 
+    rebelsVehicles.clear()
+    print(rebelsVehicles.isEmpty())
+
 
 
 }
